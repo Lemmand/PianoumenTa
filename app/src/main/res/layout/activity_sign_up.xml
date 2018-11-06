@@ -156,22 +156,22 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="194dp"
+        android:layout_width="198dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
+        android:background="#2c94ef"
         android:onClick="next"
         android:text="Sing Up"
-        android:background="#2c94ef"
-        android:textColor="#ffffff"/>
+        android:textColor="#ffffff" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="196dp"
+        android:layout_width="198dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
+        android:background="#66d81b60"
         android:onClick="cancel"
         android:text="Cancel"
-        android:background="#66d81b60"
-        android:textColor="#ffffff"/>
+        android:textColor="#ffffff" />
 
 </LinearLayout>
