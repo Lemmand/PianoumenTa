@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/EditProfile"
+        android:title ="Edit Profile"
+        android:orderInCategory="3"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/Preferences"
+        android:title ="Preferences"
+        android:orderInCategory="4"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/Home"
+        android:title ="Home"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/Settings"
+        android:title ="Settings"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        />
+</menu>

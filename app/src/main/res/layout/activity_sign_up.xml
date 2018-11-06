@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66d81b60"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    tools:context=".SignUp">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Create An Account"
+        android:textColor="#ffffff"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Name"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/nametxt"
+        android:layout_width="353dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:ems="10"
+        android:hint="eg. Stephanie"
+        android:inputType="textPersonName"
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Surname"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/surnametxt"
+        android:layout_width="354dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:ems="10"
+        android:hint="eg. Nektariou"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Username:"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/usernametxt"
+        android:layout_width="354dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:ems="10"
+        android:hint="eg. StephNekt1996"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_marginLeft="20dp"
+        android:text="Birth Date"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/birthdatetxt"
+        android:layout_width="181dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:ems="10"
+        android:hint="02/04/1997"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Sex"
+        android:textColor="#ffffff"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginLeft="20dp">
+
+        <RadioButton
+            android:id="@+id/maleradio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="Male"
+            android:textColor="#ffffff"/>
+
+        <RadioButton
+            android:id="@+id/femaleradio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="Female"
+            android:textColor="#ffffff"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Email"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/emailtxt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:ems="10"
+        android:hint="stephanie@email,com"
+        android:inputType="textEmailAddress"
+
+        />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Password"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/passtxt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:onClick="next"
+        android:text="Sing Up"
+        android:background="#2c94ef"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:onClick="cancel"
+        android:text="Cancel"
+        android:background="#66d81b60"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>

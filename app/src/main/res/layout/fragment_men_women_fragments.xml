@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:orientation="vertical"
+    tools:context=".Tips">
+
+    <TextView
+        android:id="@+id/txtSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txt1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="19dp"
+        android:layout_marginBottom="-83dp"
+        android:text="5 Tips For Successfully Approach Women"
+        android:textAlignment="center"
+        android:textColor="#303C74"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="83dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="28dp"
+        android:text="1) Smile. That one’s easy."
+        android:textColor="#303C74"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:paddingLeft="10dp"
+        android:text="2) Approach right away."
+        android:textColor="#303C74"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt2"
+        android:layout_alignParentBottom="true"
+
+        android:paddingLeft="10dp"
+        android:paddingRight="28dp"
+        android:text="3) Use relaxed, confident body language."
+        android:textColor="#303C74"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="10dp"
+        android:text="4) It doesn’t matter who she is with. Attractive women rarely do things alone."
+        android:textColor="#303C74"
+        android:textSize="18sp" />
+
+</LinearLayout>

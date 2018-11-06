@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hariskyprianou.pianoumenta">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignUp" />
+        <activity
+            android:name=".InterestsPage"
+            android:label="@string/title_activity_interests_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".WelcomePage" />
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Feedback"
+            android:label="@string/title_activity_feedback"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditProfile"
+            android:label="@string/title_activity_edit_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".changePass" />
+        <activity
+            android:name=".Tips"
+            android:label="@string/title_activity_tips"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".aboutus" />
+        <activity
+            android:name=".Preferences_1"
+            android:label="@string/title_activity_preferences_1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Preferences_2"
+            android:label="@string/title_activity_preferences_2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

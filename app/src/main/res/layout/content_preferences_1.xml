@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Preferences_1"
+    tools:showIn="@layout/activity_preferences_1">
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Select Your Preferences:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Are You Interested In:"
+        android:textSize="14sp" />
+
+    <CheckBox
+        android:id="@+id/chk_men"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Men"
+        android:textSize="12sp"
+        />
+
+    <CheckBox
+        android:id="@+id/chk_women"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Women"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Location"
+        android:textSize="14sp" />
+
+    <CheckBox
+        android:id="@+id/chk_nicosia"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Nicosia"
+        android:textSize="12sp" />
+
+    <CheckBox
+        android:id="@+id/chk_limassol"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Limassol"
+        android:textSize="12sp" />
+
+    <CheckBox
+        android:id="@+id/chk_larnaca"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Larnaca"
+        android:textSize="12sp" />
+
+    <CheckBox
+        android:id="@+id/chk_paphos"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Paphos"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Preffered Age"
+        android:textSize="14sp" />
+
+    <CheckBox
+        android:id="@+id/chk_20s"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="20's"
+        android:textSize="10sp" />
+
+    <CheckBox
+        android:id="@+id/chk_30s"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="30's"
+        android:textSize="10sp" />
+
+    <CheckBox
+        android:id="@+id/chk_40s"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="40's"
+        android:textSize="10sp" />
+
+    <CheckBox
+        android:id="@+id/chk_50s"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="50's"
+        android:textSize="10sp" />
+
+</LinearLayout>

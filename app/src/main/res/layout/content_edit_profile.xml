@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="0dp"
+    android:layout_marginTop="53dp"
+    android:background="#FFFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:paddingTop="5dp"
+        android:text="TextView"
+        android:textSize="20dp"
+        app:fontFamily="cursive" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="123dp"
+        android:layout_height="149dp"
+        app:srcCompat="@drawable/niki" />
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="Name:"
+            android:textColor="#2c94ef"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="Change Name..."
+            android:inputType="textPersonName"
+            android:textColor="#66d81b60"
+            android:textColorHint="#66d81b60" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="Surname:"
+            android:textColor="#2c94ef"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="Change Username..."
+            android:inputType="textPersonName"
+            android:textColorHint="#66d81b60" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="Username:"
+            android:textColor="#2c94ef"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="Change Surname..."
+            android:inputType="textPersonName"
+            android:textColor="#66d81b60"
+            android:textColorHint="#66d81b60" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="Email:"
+            android:textColor="#2c94ef"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editText10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="Change Email..."
+            android:inputType="textEmailAddress"
+            android:textColor="#66d81b60"
+            android:textColorHint="#66d81b60" />
+    </TableRow>
+
+
+    <Button
+        android:id="@+id/changePassButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:background="#66d81b60"
+        android:onClick="changePass"
+        android:paddingTop="5dp"
+        android:text="Change Password:"
+        tools:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:background="#2c94ef"
+        android:paddingTop="5dp"
+        android:text="Edit Preferences:"
+        tools:textColor="@android:color/background_light" />
+
+
+</TableLayout>

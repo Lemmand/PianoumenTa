@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PianoumenTa?</string>
+    <string name="title_activity_interests_page">InterestsPage</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="title_activity_edit_profile">EditProfile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tips">Tips</string>
+    <string name="title_activity_preferences_1">Preferences_1</string>
+    <string name="title_activity_preferences_2">Preferences_2</string>
+</resources>

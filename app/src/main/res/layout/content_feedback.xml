@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Feedback"
+    tools:showIn="@layout/activity_feedback">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="8dp"
+        android:text="Your opinion matters to us"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="40dp"
+        android:text="You can report errors and bugs."
+        android:textColor="#000"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="327dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginBottom="255dp"
+        android:ems="10"
+        android:hint="Please Enter Your Thoughts Here"
+        android:inputType="textPersonName"
+        android:outlineAmbientShadowColor="@color/colorAccent"
+        android:outlineSpotShadowColor="@color/colorAccent"
+        android:shadowColor="@color/colorPrimaryDark"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-39dp"
+        android:layout_marginTop="284dp"
+        android:layout_toEndOf="@+id/textView15"
+        android:onClick="sendFeedback"
+        android:text="Send"
+        tools:layout_editor_absoluteX="267dp"
+        tools:layout_editor_absoluteY="303dp"
+        android:background="#2c94ef"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-263dp"
+        android:layout_marginTop="284dp"
+        android:layout_toEndOf="@+id/textView15"
+        android:onClick="cancel"
+        android:text="Cancel"
+        tools:layout_editor_absoluteX="267dp"
+        tools:layout_editor_absoluteY="303dp"
+        android:background="#66d81b60"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/thankyou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView15"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginLeft="71dp"
+        android:layout_marginTop="354dp"
+        android:text="Thank you!"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="410dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/thankyou"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="56dp"
+        android:numStars="6" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thankyou"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="230dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:background="#ae2cef"
+        android:onClick="rateApp"
+        android:text="Submit Rating"
+        android:textColor="#ffffff" />
+</RelativeLayout>
