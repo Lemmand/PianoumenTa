@@ -19,6 +19,7 @@
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
         android:text="Select Your Preferences:"
+        android:textColor="#fff"
         android:textSize="16sp" />
 
     <TextView
@@ -29,6 +30,7 @@
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
         android:text="Are You Interested In:"
+        android:textColor="#fff"
         android:textSize="14sp" />
 
     <CheckBox
@@ -60,6 +62,7 @@
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
         android:text="Location"
+        android:textColor="#fff"
         android:textSize="14sp" />
 
     <CheckBox
@@ -108,8 +111,9 @@
         android:layout_height="wrap_content"
         android:paddingLeft="10dp"
         android:paddingTop="10dp"
+        android:textColor="#fff"
         android:paddingBottom="10dp"
-        android:text="Preffered Age"
+        android:text="Preferred Age"
         android:textSize="14sp" />
 
     <CheckBox

@@ -16,6 +16,7 @@
         android:paddingLeft="10dp"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
+        android:textColor="#fff"
         android:text="Movie Choices"
         android:textSize="18sp" />
 
@@ -80,6 +81,7 @@
         android:paddingLeft="10dp"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
+        android:textColor="#fff"
         android:text="Music Choices"
         android:textSize="18sp" />
 

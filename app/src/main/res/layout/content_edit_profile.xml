@@ -132,7 +132,7 @@
         android:onClick="changePass"
         android:paddingTop="5dp"
         android:text="Change Password:"
-        tools:textColor="@android:color/background_light" />
+        tools:textColor="#fff" />
 
     <Button
         android:id="@+id/button17"
@@ -144,7 +144,7 @@
         android:background="#2c94ef"
         android:paddingTop="5dp"
         android:text="Edit Preferences:"
-        tools:textColor="@android:color/background_light" />
+        tools:textColor="#fff" />
 
 
 </TableLayout>
